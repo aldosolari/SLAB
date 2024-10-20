@@ -123,6 +123,38 @@ p. 5-34
 
 - Stigler, S. M. (2022). [Casanova's Lottery: The History of a Revolutionary Game of Chance](https://press.uchicago.edu/ucp/books/book/chicago/C/bo173083204.html). University of Chicago Press.
 
-#### Riconoscimenti
+<!-- ### Progettazione del corso -->
 
-Vorrei ringraziare il Prof. Tommaso Rigon per aver messo a disposizione tutto il materiale del corso. Eventuali errori o refusi sono esclusivamente mia responsabilità.
+<!-- Il corso richiede un impegno di 150 ore per ottenere 6 Crediti Formativi Universitari (CFU), di cui 30 ore in aula. <br> -->
+<!-- Il seguente grafico radar definisce la percentuale di peso e la distribuzione del tempo di ciascun evento di apprendimento all'interno del corso. -->
+
+<!-- ```{r, echo=FALSE} -->
+<!-- library(fmsb) -->
+<!-- data <- as.data.frame(matrix( c(40,20,30,10,0,0,0,0) , ncol=8)) -->
+<!-- colnames(data) <- c("Contenuti a bassa interattività" , -->
+<!--                     "Rielaborazione di contenuti" , -->
+<!--                     "Applicazione" , -->
+<!--                     "Retrieval" , -->
+<!--                     "Riflessione e metacognizione", -->
+<!--                     "Discussione" , -->
+<!--                     "Produzione / Ricerca" , -->
+<!--                     "Contenuti ad alta interattività" ) -->
+<!-- #add 2 lines to the dataframe: the max and min of each topic to show on the plot -->
+<!-- data <- rbind(rep(40,8) , rep(0,8) , data) -->
+<!-- radarchart(data, centerzero=T, axistype=1, axislabcol = "grey", cglcol = "grey", cglty = 1, cglwd = 0.8, -->
+<!--            caxislabels = c(0, 10, 20, 30, 40), -->
+<!--            pcol = "#00AFBB", pfcol = scales::alpha("#00AFBB", 0.5), plwd = 2, plty = 1) -->
+<!-- ``` -->
+
+<!-- Contenuti a bassa interattività (40%): lezione frontale, lettura libro <br> -->
+<!-- Rielaborazione di contenuti (20%): riassunti, schemi <br> -->
+<!-- Applicazione (30%): esercizi <br> -->
+<!-- Retrieval (10%): quiz <br> -->
+
+<!-- Si veda il metodo [Smart Learning Design 25](https://www.metid.polimi.it/en/)  per ulteriori dettagli. -->
+
+
+
+### Riconoscimenti
+
+Vorrei ringraziare il Prof. Tommaso Rigon per aver messo a disposizione il materiale del corso "R per l’analisi statistica multivariata". Eventuali errori o refusi sono esclusivamente mia responsabilità.
