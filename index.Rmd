@@ -1,5 +1,5 @@
 ---
-title: "Laboratorio di Statistica"
+title: "Laboratorio di Statistica per l'Economia"
 output: markdowntemplates::minimal
 ---
 
@@ -7,8 +7,108 @@ output: markdowntemplates::minimal
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Università Ca' Foscari di Venezia, Corso di Laurea triennale in Economia e Commercio. Laboratorio di Statistica per l'Economia. (30 ore).
+Università Ca’ Foscari di Venezia, Corso di Laurea triennale in Economia e Commercio.
+
+## Esame
+
+Agli studenti sarà richiesto di analizzare un insieme di dati per verificare la loro capacità di analizzare, interpretare e comunicare le informazioni.
+
+
+##  Contenuti
+
+1. Introduzione ad R. 	
+2. Statistica descrittiva.
+3. Calcolo delle probabilità.
+4. Inferenza statistica.
+5. Analisi dei dati.
+
+## Materiale didattico
+
+
+### Il software R
+
+-   **R** è un software **open source** ed è possibile scaricarlo al
+    link <https://cloud.r-project.org>.
+
+-   L'uso di **Rstudio** è **facoltativo** in questo corso, anche se
+    fortemente consigliato. È possibile scaricarlo al link
+    <https://rstudio.com/products/rstudio/>.
+
+-   La documentazione del software **R** è parte integrante del
+    materiale didattico.
+
+### Testi di riferimento
+
+-   Albert, J. &  Rizzo M. (2012). [*R by
+    Example*](https://link.springer.com/content/pdf/10.1007%2F978-1-4614-1365-3.pdf).
+    Springer.\
+    
+-   Robert, C. & Casella G. (2010). [*Introducing Monte Carlo Methods
+    with
+    R*](https://link.springer.com/content/pdf/10.1007%2F978-1-4419-1576-4.pdf).
+    Springer
+    
+La sigla **AR** corrisponde al libro di Albert \& Rizzo. La sigla **RC** corrisponde al libro Robert \& Casella
+
+### Testo di consultazione
+
+-   Spiegelhalter, D. (2020). [L’arte della statistica](https://www.einaudi.it/catalogo-libri/scienze-sociali/sociologia/larte-della-statistica-david-spiegelhalter-9788806246624/), Einaudi.\
+
+### Collegamenti ipertestuali di riferimento
+
+* [R per l'analisi statistica multivariata](https://tommasorigon.github.io/introR/), corso tenuto da [Tommaso Rigon](https://tommasorigon.github.io/) per il CdL in Scienze Statistiche ed Economiche dell'Università di Milano-Bicocca.
+
+* [The Art of Statistics: Code, Data, Errata and Additions](https://dspiegel29.github.io/ArtofStatistics/)
+
+La sigla **IntroR** corrisponde alla pagina web R per l'analisi statistica multivariata. La sigla **ArtOfStatR** corrisponde corrisponde alla pagina web The Art of Statistics.
 
 
 
+## Lezioni
 
+| Argomenti                                         | Materiale didattico                     | Materiale aggiuntivo                              | Sezioni libro di testo                                  |
+|------------------------|---------------------------|-----------|-------------|
+|                                                   | **INTRODUZIONE AD R**                   |                                                   |                                                         |
+| A-B-C: calcolo scientifico ed algebra lineare     | [Unità A](https://tommasorigon.github.io/introR/lezioni/un_A.html)         | [Codice R](https://tommasorigon.github.io/introR/lezioni/script/un_A.R)              | **AR** §1.1, §1.3, §A1 --- §A3                          |
+| Elementi di programmazione                        | [Unità B](https://tommasorigon.github.io/introR/lezioni/un_B.html)         | [Codice R](https://tommasorigon.github.io/introR/lezioni/script/un_B.R)              | **AR** §1.2, §1.6 --- §1.8                              |
+| I dataframes                                      | [Unità C](https://tommasorigon.github.io/introR/lezioni/un_C.html)         | [Codice R](https://tommasorigon.github.io/introR/lezioni/script/un_C.R)              | **AR** §1.4 --- §1.5                                    |
+| *Esercizi*                                        | [Esercizi 1](https://tommasorigon.github.io/introR/exe/es_1.html)             | [soluzione. R](https://tommasorigon.github.io/introR/exe/es_1.R)                        |                                                         |
+|                                                   | **STATISTICA DESCRITTIVA**              |                                                   |                                                         |
+| Analisi descrittiva dei dati `dde`                | [Unità D](https://tommasorigon.github.io/introR/lezioni/un_D.html)         | [Codice R](https://tommasorigon.github.io/introR/lezioni/script/un_D.R)              | **AR** §2.1 --- §2.3, §2.7                              |
+| Analisi descrittiva dei dati `emoglobina`         | [Unità E](https://tommasorigon.github.io/introR/lezioni/un_E.html)         | [Codice R](https://tommasorigon.github.io/introR/lezioni/script/un_E.R)              | **AR** §2.1 --- §2.3, §2.7                              |
+| *Esercitazione*                                | [Unità F](https://tommasorigon.github.io/introR/lezioni/un_F.html)         | [Codice R](https://tommasorigon.github.io/introR/lezioni/script/un_F.R)              | **AR** 7.1, §7.2                                        |
+| Analisi descrittiva dei dati `titanic`            | [Unità G](https://tommasorigon.github.io/introR/lezioni/un_G.html)         | [Codice R](https://tommasorigon.github.io/introR/lezioni/script/un_G.R)              | **AR** §3.1 --- §3.5                                    |
+| *Esercizi*                                        | [Esercizi 2](https://tommasorigon.github.io/introR/exe/es_2.html)             | [soluzione. R](https://tommasorigon.github.io/introR/exe/es_2.R)                        |                                                         |
+|                                                   | **CALCOLO DELLE PROBABILITÀ**           |                                                   |                                                         |
+| Variabili aleatorie                               | [Unità H](https://tommasorigon.github.io/introR/lezioni/un_H.html)         | [Codice R](https://tommasorigon.github.io/introR/lezioni/script/un_H.R)              | **RC** §2.1, §2.2                                       |
+| Metodi Monte Carlo                                | [Unità I](https://tommasorigon.github.io/introR/lezioni/un_I.html)         | [Codice R](https://tommasorigon.github.io/introR/lezioni/script/un_I.R)              | **AR** §11.1 --- §11.5, §13.1, §13.2; **RC** §3.1, §3.2 |
+| *Esercizi*                                        | [Esercizi 3](https://tommasorigon.github.io/introR/exe/es_3.html)             | [soluzione. R](https://tommasorigon.github.io/introR/exe/es_3.R)                        |                                                         |
+|                                                   | **INFERENZA STATISTICA**                |                                                   |                                                         |
+| Proprietà degli stimatori                         | [Unità M](https://tommasorigon.github.io/introR/lezioni/un_M.html)         | [Codice R](https://tommasorigon.github.io/introR/lezioni/script/un_M.R)              | **AR** §13.3                                            |
+| *Esercizi*                                        | [Esercizi 4](https://tommasorigon.github.io/introR/exe/es_4.html)             | [soluzione. R](https://tommasorigon.github.io/introR/exe/es_4.R)                        |                                                         |
+<!-- | Metodi numerici per l'analisi di verosimiglianza | [Unità K](https://tommasorigon.github.io/introR/lezioni/un_K.html)         | [Codice R](https://tommasorigon.github.io/introR/lezioni/script/un_K.R)              | **RC** §5.1, §5.2                                       | -->
+<!-- | Proprietà degli stimatori                         | [Unità M](https://tommasorigon.github.io/introR/lezioni/un_M.html)         | [Codice R](https://tommasorigon.github.io/introR/lezioni/script/un_M.R)              | **AR** §13.3                                            | -->
+<!-- | *Esercizi*                                        | [Esercizi 4](https://tommasorigon.github.io/introR/exe/es_4.html)             | [soluzione. R](https://tommasorigon.github.io/introR/exe/es_4.R)                        |                                                         | -->
+<!-- |                                                   | **LEZIONI AGGIUNTIVE**                  |                                                   |                                                         | -->
+<!-- | Casinò, roulette e metodi Monte Carlo             | [Unità J](https://tommasorigon.github.io/introR/lezioni/un_J.html)         | [Codice R](https://tommasorigon.github.io/introR/lezioni/script/un_J.R)              | **AR** §11.2                                            | -->
+<!-- | Minimi quadrati non lineari                       | [Unità L](https://tommasorigon.github.io/introR/lezioni/un_L.html)         | [Codice R](https://tommasorigon.github.io/introR/lezioni/script/un_L.R)              |                                                         | -->
+
+
+## Dati
+
+- [Titanic](https://github.com/aldosolari/IPE/blob/main/docs/titanic.csv)
+
+### French Lottery Data
+
+Due file contenenti dati della lotteria francese dal 1758 al 1834. I dati sono in formato testo. Il primo file ("Winning Draws") contiene 6606 righe, ognuna con cinque numeri separati da tabulazioni. Il secondo file ("Winning Quaterne Bets") ha 327 righe, ognuna con quattro numeri, separati da tabulazioni. Non ci sono etichette o righe di intestazione.
+
+- [Winning Draws](https://www.stat.uchicago.edu/~stigler/draws.txt)
+
+- [Winning Quaterne Bets](https://www.stat.uchicago.edu/~stigler/quatbets.txt)
+
+- [Descrizione del dataset](https://www.stat.uchicago.edu/~stigler/French_Lottery_Data.shtml)
+
+- Stigler S. M. (2003) [Casanova, « Bonaparte », and the loterie de France](http://www.numdam.org/item/JSFS_2003__144_1-2_5_0.pdf) *Journal de la société française de statistique*, tome 144, no 1-2 
+p. 5-34
+
+- Stigler, S. M. (2022). [Casanova's Lottery: The History of a Revolutionary Game of Chance](https://press.uchicago.edu/ucp/books/book/chicago/C/bo173083204.html). University of Chicago Press.

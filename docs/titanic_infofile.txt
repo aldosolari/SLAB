@@ -1,0 +1,20 @@
+name		Full Name (LAST, Title First)
+sex		Sex (text, male/female)
+age		Age, numeric (fractional - 10 months = 0.8333)
+survived	Survived indicator
+class		Class of Passenger - 1,2,3
+joined		Port of embarcation
+ticket		Ticket number
+price   	Price of ticket, Pounds
+sibsp		Number of Siblings/Spouses Aboard
+parch		Number of Parents/Children Aboard
+job		Second field of career info / company, role, various
+occupation	Job / Career
+dob		Date of birth if available
+date_death 	Date of death
+boat..body.	Boat (rescued survivor), Body (identified victim)
+url		Encylopedia Titanic URL filename (starts with http://www.encyclopedia-titanica.org)
+ticketFreq 	Ticket frequency
+pricepp 	Price per passenger = price / ticketFreq
+fsize 		Family size = 1 + parch + sibsp
+title 		Passenger's title

@@ -8,7 +8,7 @@
 <meta name="generator" content="pandoc" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Laboratorio di Statistica</title>
+<title>Laboratorio di Statistica per l’Economia</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -33,13 +33,272 @@ document.addEventListener('DOMContentLoaded', function(e) {
 <body>
 <div class="container">
 
-<h1>Laboratorio di Statistica</h1>
+<h1>Laboratorio di Statistica per l’Economia</h1>
 
 
 
 <p>Università Ca’ Foscari di Venezia, Corso di Laurea triennale in
-Economia e Commercio. Laboratorio di Statistica per l’Economia. (30
-ore).</p>
+Economia e Commercio.</p>
+<div id="esame" class="section level2">
+<h2>Esame</h2>
+<p>Agli studenti sarà richiesto di analizzare un insieme di dati per
+verificare la loro capacità di analizzare, interpretare e comunicare le
+informazioni.</p>
+</div>
+<div id="contenuti" class="section level2">
+<h2>Contenuti</h2>
+<ol style="list-style-type: decimal">
+<li>Introduzione ad R.<br />
+</li>
+<li>Statistica descrittiva.</li>
+<li>Calcolo delle probabilità.</li>
+<li>Inferenza statistica.</li>
+<li>Analisi dei dati.</li>
+</ol>
+</div>
+<div id="materiale-didattico" class="section level2">
+<h2>Materiale didattico</h2>
+<div id="il-software-r" class="section level3">
+<h3>Il software R</h3>
+<ul>
+<li><p><strong>R</strong> è un software <strong>open source</strong> ed
+è possibile scaricarlo al link <a href="https://cloud.r-project.org" class="uri">https://cloud.r-project.org</a>.</p></li>
+<li><p>L’uso di <strong>Rstudio</strong> è <strong>facoltativo</strong>
+in questo corso, anche se fortemente consigliato. È possibile scaricarlo
+al link <a href="https://rstudio.com/products/rstudio/" class="uri">https://rstudio.com/products/rstudio/</a>.</p></li>
+<li><p>La documentazione del software <strong>R</strong> è parte
+integrante del materiale didattico.</p></li>
+</ul>
+</div>
+<div id="testi-di-riferimento" class="section level3">
+<h3>Testi di riferimento</h3>
+<ul>
+<li><p>Albert, J. &amp; Rizzo M. (2012). <a href="https://link.springer.com/content/pdf/10.1007%2F978-1-4614-1365-3.pdf"><em>R
+by Example</em></a>. Springer.<br />
+</p></li>
+<li><p>Robert, C. &amp; Casella G. (2010). <a href="https://link.springer.com/content/pdf/10.1007%2F978-1-4419-1576-4.pdf"><em>Introducing
+Monte Carlo Methods with R</em></a>. Springer</p></li>
+</ul>
+<p>La sigla <strong>AR</strong> corrisponde al libro di Albert &amp;
+Rizzo. La sigla <strong>RC</strong> corrisponde al libro Robert &amp;
+Casella</p>
+</div>
+<div id="testo-di-consultazione" class="section level3">
+<h3>Testo di consultazione</h3>
+<ul>
+<li>Spiegelhalter, D. (2020). <a href="https://www.einaudi.it/catalogo-libri/scienze-sociali/sociologia/larte-della-statistica-david-spiegelhalter-9788806246624/">L’arte
+della statistica</a>, Einaudi.<br />
+</li>
+</ul>
+</div>
+<div id="collegamenti-ipertestuali-di-riferimento" class="section level3">
+<h3>Collegamenti ipertestuali di riferimento</h3>
+<ul>
+<li><p><a href="https://tommasorigon.github.io/introR/">R per l’analisi
+statistica multivariata</a>, corso tenuto da <a href="https://tommasorigon.github.io/">Tommaso Rigon</a> per il CdL in
+Scienze Statistiche ed Economiche dell’Università di
+Milano-Bicocca.</p></li>
+<li><p><a href="https://dspiegel29.github.io/ArtofStatistics/">The Art
+of Statistics: Code, Data, Errata and Additions</a></p></li>
+</ul>
+<p>La sigla <strong>IntroR</strong> corrisponde alla pagina web R per
+l’analisi statistica multivariata. La sigla <strong>ArtOfStatR</strong>
+corrisponde corrisponde alla pagina web The Art of Statistics.</p>
+</div>
+</div>
+<div id="lezioni" class="section level2">
+<h2>Lezioni</h2>
+<table>
+<colgroup>
+<col width="32%" />
+<col width="36%" />
+<col width="14%" />
+<col width="17%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Argomenti</th>
+<th>Materiale didattico</th>
+<th>Materiale aggiuntivo</th>
+<th>Sezioni libro di testo</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td><strong>INTRODUZIONE AD R</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>A-B-C: calcolo scientifico ed algebra lineare</td>
+<td><a href="https://tommasorigon.github.io/introR/lezioni/un_A.html">Unità
+A</a></td>
+<td><a href="https://tommasorigon.github.io/introR/lezioni/script/un_A.R">Codice
+R</a></td>
+<td><strong>AR</strong> §1.1, §1.3, §A1 — §A3</td>
+</tr>
+<tr class="odd">
+<td>Elementi di programmazione</td>
+<td><a href="https://tommasorigon.github.io/introR/lezioni/un_B.html">Unità
+B</a></td>
+<td><a href="https://tommasorigon.github.io/introR/lezioni/script/un_B.R">Codice
+R</a></td>
+<td><strong>AR</strong> §1.2, §1.6 — §1.8</td>
+</tr>
+<tr class="even">
+<td>I dataframes</td>
+<td><a href="https://tommasorigon.github.io/introR/lezioni/un_C.html">Unità
+C</a></td>
+<td><a href="https://tommasorigon.github.io/introR/lezioni/script/un_C.R">Codice
+R</a></td>
+<td><strong>AR</strong> §1.4 — §1.5</td>
+</tr>
+<tr class="odd">
+<td><em>Esercizi</em></td>
+<td><a href="https://tommasorigon.github.io/introR/exe/es_1.html">Esercizi
+1</a></td>
+<td><a href="https://tommasorigon.github.io/introR/exe/es_1.R">soluzione.
+R</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><strong>STATISTICA DESCRITTIVA</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Analisi descrittiva dei dati <code>dde</code></td>
+<td><a href="https://tommasorigon.github.io/introR/lezioni/un_D.html">Unità
+D</a></td>
+<td><a href="https://tommasorigon.github.io/introR/lezioni/script/un_D.R">Codice
+R</a></td>
+<td><strong>AR</strong> §2.1 — §2.3, §2.7</td>
+</tr>
+<tr class="even">
+<td>Analisi descrittiva dei dati <code>emoglobina</code></td>
+<td><a href="https://tommasorigon.github.io/introR/lezioni/un_E.html">Unità
+E</a></td>
+<td><a href="https://tommasorigon.github.io/introR/lezioni/script/un_E.R">Codice
+R</a></td>
+<td><strong>AR</strong> §2.1 — §2.3, §2.7</td>
+</tr>
+<tr class="odd">
+<td><em>Esercitazione</em></td>
+<td><a href="https://tommasorigon.github.io/introR/lezioni/un_F.html">Unità
+F</a></td>
+<td><a href="https://tommasorigon.github.io/introR/lezioni/script/un_F.R">Codice
+R</a></td>
+<td><strong>AR</strong> 7.1, §7.2</td>
+</tr>
+<tr class="even">
+<td>Analisi descrittiva dei dati <code>titanic</code></td>
+<td><a href="https://tommasorigon.github.io/introR/lezioni/un_G.html">Unità
+G</a></td>
+<td><a href="https://tommasorigon.github.io/introR/lezioni/script/un_G.R">Codice
+R</a></td>
+<td><strong>AR</strong> §3.1 — §3.5</td>
+</tr>
+<tr class="odd">
+<td><em>Esercizi</em></td>
+<td><a href="https://tommasorigon.github.io/introR/exe/es_2.html">Esercizi
+2</a></td>
+<td><a href="https://tommasorigon.github.io/introR/exe/es_2.R">soluzione.
+R</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><strong>CALCOLO DELLE PROBABILITÀ</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Variabili aleatorie</td>
+<td><a href="https://tommasorigon.github.io/introR/lezioni/un_H.html">Unità
+H</a></td>
+<td><a href="https://tommasorigon.github.io/introR/lezioni/script/un_H.R">Codice
+R</a></td>
+<td><strong>RC</strong> §2.1, §2.2</td>
+</tr>
+<tr class="even">
+<td>Metodi Monte Carlo</td>
+<td><a href="https://tommasorigon.github.io/introR/lezioni/un_I.html">Unità
+I</a></td>
+<td><a href="https://tommasorigon.github.io/introR/lezioni/script/un_I.R">Codice
+R</a></td>
+<td><strong>AR</strong> §11.1 — §11.5, §13.1, §13.2; <strong>RC</strong>
+§3.1, §3.2</td>
+</tr>
+<tr class="odd">
+<td><em>Esercizi</em></td>
+<td><a href="https://tommasorigon.github.io/introR/exe/es_3.html">Esercizi
+3</a></td>
+<td><a href="https://tommasorigon.github.io/introR/exe/es_3.R">soluzione.
+R</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><strong>INFERENZA STATISTICA</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Proprietà degli stimatori</td>
+<td><a href="https://tommasorigon.github.io/introR/lezioni/un_M.html">Unità
+M</a></td>
+<td><a href="https://tommasorigon.github.io/introR/lezioni/script/un_M.R">Codice
+R</a></td>
+<td><strong>AR</strong> §13.3</td>
+</tr>
+<tr class="even">
+<td><em>Esercizi</em></td>
+<td><a href="https://tommasorigon.github.io/introR/exe/es_4.html">Esercizi
+4</a></td>
+<td><a href="https://tommasorigon.github.io/introR/exe/es_4.R">soluzione.
+R</a></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<!-- | Metodi numerici per l'analisi di verosimiglianza | [Unità K](https://tommasorigon.github.io/introR/lezioni/un_K.html)         | [Codice R](https://tommasorigon.github.io/introR/lezioni/script/un_K.R)              | **RC** §5.1, §5.2                                       | -->
+<!-- | Proprietà degli stimatori                         | [Unità M](https://tommasorigon.github.io/introR/lezioni/un_M.html)         | [Codice R](https://tommasorigon.github.io/introR/lezioni/script/un_M.R)              | **AR** §13.3                                            | -->
+<!-- | *Esercizi*                                        | [Esercizi 4](https://tommasorigon.github.io/introR/exe/es_4.html)             | [soluzione. R](https://tommasorigon.github.io/introR/exe/es_4.R)                        |                                                         | -->
+<!-- |                                                   | **LEZIONI AGGIUNTIVE**                  |                                                   |                                                         | -->
+<!-- | Casinò, roulette e metodi Monte Carlo             | [Unità J](https://tommasorigon.github.io/introR/lezioni/un_J.html)         | [Codice R](https://tommasorigon.github.io/introR/lezioni/script/un_J.R)              | **AR** §11.2                                            | -->
+<!-- | Minimi quadrati non lineari                       | [Unità L](https://tommasorigon.github.io/introR/lezioni/un_L.html)         | [Codice R](https://tommasorigon.github.io/introR/lezioni/script/un_L.R)              |                                                         | -->
+</div>
+<div id="dati" class="section level2">
+<h2>Dati</h2>
+<ul>
+<li><a href="https://github.com/aldosolari/IPE/blob/main/docs/titanic.csv">Titanic</a></li>
+</ul>
+<div id="french-lottery-data" class="section level3">
+<h3>French Lottery Data</h3>
+<p>Due file contenenti dati della lotteria francese dal 1758 al 1834. I
+dati sono in formato testo. Il primo file (“Winning Draws”) contiene
+6606 righe, ognuna con cinque numeri separati da tabulazioni. Il secondo
+file (“Winning Quaterne Bets”) ha 327 righe, ognuna con quattro numeri,
+separati da tabulazioni. Non ci sono etichette o righe di
+intestazione.</p>
+<ul>
+<li><p><a href="https://www.stat.uchicago.edu/~stigler/draws.txt">Winning
+Draws</a></p></li>
+<li><p><a href="https://www.stat.uchicago.edu/~stigler/quatbets.txt">Winning
+Quaterne Bets</a></p></li>
+<li><p><a href="https://www.stat.uchicago.edu/~stigler/French_Lottery_Data.shtml">Descrizione
+del dataset</a></p></li>
+<li><p>Stigler S. M. (2003) <a href="http://www.numdam.org/item/JSFS_2003__144_1-2_5_0.pdf">Casanova, «
+Bonaparte », and the loterie de France</a> <em>Journal de la société
+française de statistique</em>, tome 144, no 1-2 p. 5-34</p></li>
+<li><p>Stigler, S. M. (2022). <a href="https://press.uchicago.edu/ucp/books/book/chicago/C/bo173083204.html">Casanova’s
+Lottery: The History of a Revolutionary Game of Chance</a>. University
+of Chicago Press.</p></li>
+</ul>
+</div>
+</div>
 
 
 </div>
