@@ -116,7 +116,7 @@ Rappresenta una fonte di dati insolita che offre uno spunto per lo studio del gi
 
 - [Winning Quaterne Bets](https://www.stat.uchicago.edu/~stigler/quatbets.txt)
 
-- [Fonte](https://www.stat.uchicago.edu/~stigler/French_Lottery_Data.shtml)
+- [Fonte dei dati](https://www.stat.uchicago.edu/~stigler/French_Lottery_Data.shtml)
 
 - Stigler S. M. (2003) [Casanova, « Bonaparte », and the loterie de France](http://www.numdam.org/item/JSFS_2003__144_1-2_5_0.pdf) *Journal de la société française de statistique*, tome 144, no 1-2 
 p. 5-34
