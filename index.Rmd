@@ -9,12 +9,12 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Università Ca’ Foscari di Venezia, Corso di Laurea triennale in Economia e Commercio.
 
-## Esame
+### Esame
 
 Agli studenti sarà richiesto di analizzare un insieme di dati per verificare la loro capacità di analizzare, interpretare e comunicare le informazioni.
 
 
-##  Contenuti
+###  Contenuti
 
 1. Introduzione ad R. 	
 2. Statistica descrittiva.
@@ -22,10 +22,10 @@ Agli studenti sarà richiesto di analizzare un insieme di dati per verificare la
 4. Inferenza statistica.
 5. Analisi dei dati.
 
-## Materiale didattico
+### Materiale didattico
 
 
-### Il software R
+#### Il software R
 
 -   **R** è un software **open source** ed è possibile scaricarlo al
     link <https://cloud.r-project.org>.
@@ -37,7 +37,7 @@ Agli studenti sarà richiesto di analizzare un insieme di dati per verificare la
 -   La documentazione del software **R** è parte integrante del
     materiale didattico.
 
-### Testi di riferimento
+#### Testi di riferimento
 
 -   Albert, J. &  Rizzo M. (2012). [*R by
     Example*](https://link.springer.com/content/pdf/10.1007%2F978-1-4614-1365-3.pdf).
@@ -50,11 +50,11 @@ Agli studenti sarà richiesto di analizzare un insieme di dati per verificare la
     
 La sigla **AR** corrisponde al libro di Albert \& Rizzo. La sigla **RC** corrisponde al libro Robert \& Casella
 
-### Testo di consultazione
+#### Testo di consultazione
 
 -   Spiegelhalter, D. (2020). [L’arte della statistica](https://www.einaudi.it/catalogo-libri/scienze-sociali/sociologia/larte-della-statistica-david-spiegelhalter-9788806246624/), Einaudi.\
 
-### Collegamenti ipertestuali di riferimento
+#### Collegamenti ipertestuali di riferimento
 
 * [R per l'analisi statistica multivariata](https://tommasorigon.github.io/introR/), corso tenuto da [Tommaso Rigon](https://tommasorigon.github.io/) per il CdL in Scienze Statistiche ed Economiche dell'Università di Milano-Bicocca.
 
@@ -64,7 +64,7 @@ La sigla **IntroR** corrisponde alla pagina web R per l'analisi statistica multi
 
 
 
-## Lezioni
+### Unità
 
 | Argomenti                                         | Materiale didattico                     | Materiale aggiuntivo                              | Sezioni libro di testo                                  |
 |------------------------|---------------------------|-----------|-------------|
@@ -94,10 +94,11 @@ La sigla **IntroR** corrisponde alla pagina web R per l'analisi statistica multi
 <!-- | Minimi quadrati non lineari                       | [Unità L](https://tommasorigon.github.io/introR/lezioni/un_L.html)         | [Codice R](https://tommasorigon.github.io/introR/lezioni/script/un_L.R)              |                                                         | -->
 
 
-## Dati
+### Dati
 
 
-### I dati dei passeggeri del Titanic
+
+#### I dati dei passeggeri del Titanic
 
 L'affondamento del Titanic è uno dei naufragi più famosi della storia. Il 15 aprile 1912, durante il suo viaggio inaugurale, l'RMS Titanic, ampiamente considerata "inaffondabile", affondò dopo aver colpito un iceberg. Purtroppo, non c'erano abbastanza scialuppe di salvataggio per tutti a bordo, provocando la morte di 1502 persone su 2224 passeggeri e membri dell'equipaggio. L'insieme di dati "titanic" descrive le caratteristiche dei passeggeri del Titanic, ma non include informazioni sull'equipaggio. I dati sono in formato csv e sono stati ottenuti seguendo il flusso di lavoro descritto [qui](https://hbiostat.org/rflow/case). La principale fonte dei dati sui passeggeri del Titanic è l'Encyclopedia Titanica.
 
@@ -105,7 +106,7 @@ L'affondamento del Titanic è uno dei naufragi più famosi della storia. Il 15 a
 
 - [informazioni sulle variabili](docs/titanic_infofile)
 
-### La *Loterie de France*
+#### La *Loterie de France*
 
 
 La *Loterie de France* fu avviata con un aiuto cruciale da parte di Casanova e operò dal 1758 al 1834 con poche interruzioni e grande successo. 
@@ -121,3 +122,7 @@ Rappresenta una fonte di dati insolita che offre uno spunto per lo studio del gi
 p. 5-34
 
 - Stigler, S. M. (2022). [Casanova's Lottery: The History of a Revolutionary Game of Chance](https://press.uchicago.edu/ucp/books/book/chicago/C/bo173083204.html). University of Chicago Press.
+
+#### Riconoscimenti
+
+Vorrei ringraziare il Prof. Tommaso Rigon per aver messo a disposizione tutto il materiale del corso. Eventuali errori o refusi sono esclusivamente mia responsabilità.
