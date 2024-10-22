@@ -60,11 +60,11 @@ La sigla **AR** corrisponde al libro di Albert \& Rizzo. La sigla **RC** corrisp
 
 * [The Art of Statistics: Code, Data, Errata and Additions](https://dspiegel29.github.io/ArtofStatistics/)
 
-La sigla **IntroR** corrisponde alla pagina web R per l'analisi statistica multivariata. La sigla **ArtOfStatR** corrisponde corrisponde alla pagina web The Art of Statistics.
+La sigla **IntroR** corrisponde alla pagina web "R per l'analisi statistica multivariata". La sigla **ArtOfStatR** corrisponde corrisponde alla pagina web "The Art of Statistics".
 
 
 
-### Unità
+### Unità didattiche
 
 | Argomenti                                         | Materiale didattico                     | Materiale aggiuntivo                              | Sezioni libro di testo                                  |
 |------------------------|---------------------------|-----------|-------------|
