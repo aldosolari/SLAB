@@ -106,7 +106,7 @@ L'affondamento del Titanic è uno dei naufragi più famosi della storia. Il 15 a
 
 - [informazioni sulle variabili](https://raw.githubusercontent.com/aldosolari/SLAB/refs/heads/main/docs/titanic_infofile.txt)
 
-- [rapporto Lord Mersey](https://github.com/aldosolari/SLAB/blob/main/docs/Mersey) 
+- [rapporto Lord Mersey](docs/Mersey.pdf) 
 
 #### La *Loterie de France*
 
