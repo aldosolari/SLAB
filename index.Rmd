@@ -9,6 +9,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Università Ca’ Foscari di Venezia, Corso di Laurea triennale in Economia e Commercio.
 
+Pagina ufficiale del corso: [https://www.unive.it/data/insegnamento/383005](https://www.unive.it/data/insegnamento/383005)
+
 ### Esame
 
 Agli studenti sarà richiesto di analizzare un insieme di dati per verificare la loro capacità di analizzare, interpretare e comunicare le informazioni.
