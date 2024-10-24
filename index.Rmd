@@ -32,8 +32,7 @@ Agli studenti sarà richiesto di analizzare un insieme di dati per verificare la
 -   **R** è un software **open source** ed è possibile scaricarlo al
     link <https://cloud.r-project.org>.
 
--   L'uso di **Rstudio** è **facoltativo** in questo corso, anche se
-    fortemente consigliato. È possibile scaricarlo al link
+-   **Rstudio** è possibile scaricarlo al link
     <https://rstudio.com/products/rstudio/>.
 
 -   La documentazione del software **R** è parte integrante del
