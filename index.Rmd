@@ -99,7 +99,7 @@ La sigla **IntroR** corrisponde alla pagina web "R per l'analisi statistica mult
 
 
 
-#### I dati dei passeggeri del Titanic
+#### I passeggeri del Titanic
 
 L'affondamento del Titanic è uno dei naufragi più famosi della storia. Il 15 aprile 1912, durante il suo viaggio inaugurale, l'RMS Titanic, ampiamente considerata "inaffondabile", affondò dopo aver colpito un iceberg. Purtroppo, non c'erano abbastanza scialuppe di salvataggio per tutti a bordo, provocando la morte di 1502 persone su 2224 passeggeri e membri dell'equipaggio. L'insieme di dati "titanic" descrive le caratteristiche dei passeggeri del Titanic, ma non include informazioni sull'equipaggio. I dati sono in formato csv e sono stati ottenuti seguendo il flusso di lavoro descritto [qui](https://hbiostat.org/rflow/case). La principale fonte dei dati sui passeggeri del Titanic è l'Encyclopedia Titanica.
 
