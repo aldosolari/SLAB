@@ -38,7 +38,7 @@ Agli studenti sarà richiesto di analizzare un insieme di dati per verificare la
 -   La documentazione del software **R** è parte integrante del
     materiale didattico.
 
-#### Testi di riferimento
+#### Testi di consultazione
 
 -   Albert, J. &  Rizzo M. (2012). [*R by
     Example*](https://link.springer.com/content/pdf/10.1007%2F978-1-4614-1365-3.pdf).
@@ -49,13 +49,12 @@ Agli studenti sarà richiesto di analizzare un insieme di dati per verificare la
     R*](https://link.springer.com/content/pdf/10.1007%2F978-1-4419-1576-4.pdf).
     Springer
     
-La sigla **AR** corrisponde al libro di Albert \& Rizzo. La sigla **RC** corrisponde al libro Robert \& Casella
-
-#### Testo di consultazione
-
 -   Spiegelhalter, D. (2020). [L’arte della statistica](https://www.einaudi.it/catalogo-libri/scienze-sociali/sociologia/larte-della-statistica-david-spiegelhalter-9788806246624/), Einaudi.\
 
-#### Collegamenti ipertestuali di riferimento
+La sigla **AR** corrisponde al libro di Albert \& Rizzo. La sigla **RC** corrisponde al libro Robert \& Casella
+
+
+#### Collegamenti ipertestuali di consultazione
 
 * [R per l'analisi statistica multivariata](https://tommasorigon.github.io/introR/), corso tenuto da [Tommaso Rigon](https://tommasorigon.github.io/) per il CdL in Scienze Statistiche ed Economiche dell'Università di Milano-Bicocca.
 
