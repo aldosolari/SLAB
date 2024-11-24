@@ -49,7 +49,7 @@ Agli studenti sarà richiesto di analizzare un insieme di dati per verificare la
     R*](https://link.springer.com/content/pdf/10.1007%2F978-1-4419-1576-4.pdf).
     Springer
     
--   Spiegelhalter, D. (2020). [L’arte della statistica](https://www.einaudi.it/catalogo-libri/scienze-sociali/sociologia/larte-della-statistica-david-spiegelhalter-9788806246624/), Einaudi.\
+<!-- -   Spiegelhalter, D. (2020). [L’arte della statistica](https://www.einaudi.it/catalogo-libri/scienze-sociali/sociologia/larte-della-statistica-david-spiegelhalter-9788806246624/), Einaudi.\ -->
 
 La sigla **AR** corrisponde al libro di Albert \& Rizzo. La sigla **RC** corrisponde al libro Robert \& Casella
 
@@ -58,9 +58,9 @@ La sigla **AR** corrisponde al libro di Albert \& Rizzo. La sigla **RC** corrisp
 
 * [R per l'analisi statistica multivariata](https://tommasorigon.github.io/introR/), corso tenuto da [Tommaso Rigon](https://tommasorigon.github.io/) per il CdL in Scienze Statistiche ed Economiche dell'Università di Milano-Bicocca.
 
-* [The Art of Statistics: Code, Data, Errata and Additions](https://dspiegel29.github.io/ArtofStatistics/)
+<!-- * [The Art of Statistics: Code, Data, Errata and Additions](https://dspiegel29.github.io/ArtofStatistics/) -->
 
-La sigla **IntroR** corrisponde alla pagina web "R per l'analisi statistica multivariata". La sigla **ArtOfStatR** corrisponde corrisponde alla pagina web "The Art of Statistics".
+<!-- La sigla **IntroR** corrisponde alla pagina web "R per l'analisi statistica multivariata". La sigla **ArtOfStatR** corrisponde corrisponde alla pagina web "The Art of Statistics". -->
 
 
 
@@ -86,6 +86,7 @@ La sigla **IntroR** corrisponde alla pagina web "R per l'analisi statistica mult
 |                                                   | **INFERENZA STATISTICA**                |                                                   |                                                         |
 | Proprietà degli stimatori                         | [Unità M](https://tommasorigon.github.io/introR/lezioni/un_M.html)         | [Codice R](https://tommasorigon.github.io/introR/lezioni/script/un_M.R)              | **AR** §13.3                                            |
 | *Esercizi*                                        | [Esercizi 4](https://tommasorigon.github.io/introR/exe/es_4.html)             | [soluzione. R](https://tommasorigon.github.io/introR/exe/es_4.R)                        |                                                         |
+| Minimi quadrati non lineari                       | [Unità L](https://tommasorigon.github.io/introR/lezioni/un_L.html)         | [Codice R](https://tommasorigon.github.io/introR/lezioni/script/un_L.R)              |                                                         |
 <!-- | Metodi numerici per l'analisi di verosimiglianza | [Unità K](https://tommasorigon.github.io/introR/lezioni/un_K.html)         | [Codice R](https://tommasorigon.github.io/introR/lezioni/script/un_K.R)              | **RC** §5.1, §5.2                                       | -->
 <!-- | Proprietà degli stimatori                         | [Unità M](https://tommasorigon.github.io/introR/lezioni/un_M.html)         | [Codice R](https://tommasorigon.github.io/introR/lezioni/script/un_M.R)              | **AR** §13.3                                            | -->
 <!-- | *Esercizi*                                        | [Esercizi 4](https://tommasorigon.github.io/introR/exe/es_4.html)             | [soluzione. R](https://tommasorigon.github.io/introR/exe/es_4.R)                        |                                                         | -->
